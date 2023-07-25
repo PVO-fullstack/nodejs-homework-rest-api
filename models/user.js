@@ -6,9 +6,6 @@ const emailRegexp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 const userSchema = new Schema(
   {
-    // name: {
-    //   type: String,
-    // },
     password: {
       type: String,
       minlength: 6,
